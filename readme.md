@@ -8,7 +8,7 @@ In my opinion, dotfiles have the greatest value when paired with a fresh OS inst
 2. build boot disk
 3. reinstall from boot disk onto freshly wiped drive
 4. initialize install
-  [ ] need some details on best osx install settings
+  ☐ need some details on best osx install settings
 5. install apps store stuff and turn off some icloud settings
 6. clone dotfile repo & run install
   - note anything that failed
@@ -19,22 +19,22 @@ In my opinion, dotfiles have the greatest value when paired with a fresh OS inst
     - add dropbox font library
     - deactivate all fonts
     - activate as needed
-    [ ] figure out a better way to do this
+    ☐ figure out a better way to do this
 10. manually update settings and prefs as needed
 
 #### Initialize and sync stuff
-[ ] Install app store apps
-[ ] Sync Sketch (clone plugin repo and copy/paste .com prefs)
-[ ] Sync Sublime
-[ ] Sync 1p
-[ ] Sync fonts (copy paste prefs & symlink font application support (not sure if that part works)
-[ ] symlink .zshrc
-[ ] Sync alfred to DB
-[ ] Add login apps & restart
-[ ] Install creative cloud apps
-[ ] Selectively replace preferences from Mackup Backups
-[ ] Manually enter keyboard shortcuts
-[ ] License stuff
+☐ Install app store apps
+☐ Sync Sketch (clone plugin repo and copy/paste .com prefs)
+☐ Sync Sublime
+☐ Sync 1p
+☐ Sync fonts (copy paste prefs & symlink font application support (not sure if that part works)
+☐ symlink .zshrc
+☐ Sync alfred to DB
+☐ Add login apps & restart
+☐ Install creative cloud apps
+☐ Selectively replace preferences from Mackup Backups
+☐ Manually enter keyboard shortcuts
+☐ License stuff
 
 ---
 ## Dries's notes from the source repo:

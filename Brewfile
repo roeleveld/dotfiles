@@ -23,64 +23,86 @@ brew 'bash'
 brew 'homebrew/dupes/grep'
 
 # Install Binaries
-brew 'awscli'
+# brew 'awscli'
 brew 'git'
 brew 'hub'
 brew 'tree'
 brew 'mackup'
-brew 'mas'
+# brew 'mas'
 brew 'node'
-brew 'trash'
+# brew 'trash'
 brew 'wget'
+brew 'grunt'
+brew 'bower'
+brew 'postgresql'
+brew 'ffmpeg'
+brew 'imagemagick'
+brew 'heroku'
+brew 'python'
 
 # Development
-brew 'php71', args: ['with-debug']
-brew 'php71-intl'
-brew 'mariadb'
+# brew 'php71', args: ['with-debug']
+# brew 'php71-intl'
+# brew 'mariadb'
 
 # Apps
-cask 'aerial'
 cask 'alfred'
-cask 'caffeine'
 cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
-cask 'google-drive'
-cask 'gpgtools'
 cask 'iterm2'
-cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
-cask 'slack'
 cask 'sublime-text'
-cask 'tower'
 cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 cask 'vlc'
+cask 'things'
+cask 'principle'
+cask 'sketch'
+cask 'skype'
+cask 'jdownloader'
+cask 'spotify'
+cask 'handbrake'
+cask 'nvalt'
+cask 'torbrowser'
+cask 'xld'
+cask 'xee'
+cask 'transmission'
+cask 'cloak'
+cask 'little-snitch'
 
-# Quicklook
+# Utils
+#cask --appdir="~/Applications/Utilities" 'carbon-copy-cloner'
+cask 'hazel', args: { appdir: '~/Applications/Utilities' }
+cask 'flux', args: { appdir: '~/Applications/Utilities' }
+cask 'default-folder-x', args: { appdir: '~/Applications/Utilities' }
+cask 'spectacle', args: { appdir: '~/Applications/Utilities' }
+cask 'itsycal', args: { appdir: '~/Applications/Utilities' }
+cask 'the-unarchiver', args: { appdir: '~/Applications/Utilities' }
+cask 'bartender', args: { appdir: '~/Applications/Utilities' }
+cask 'logitech-unifying', args: { appdir: '~/Applications/Utilities' }
+# this failed: 
+# cask 'karabiner', args: { appdir: '~/Applications/Utilities' }
+cask 'itunes-volume-control', args: { appdir: '~/Applications/Utilities' }
+cask 'xquartz', args: { appdir: '~/Applications/Utilities' }
+# failed:
+# cask 'heroku-toolbelt', args: { appdir: '~/Applications/Utilities' }
+
+# Quicklook plugins
 cask 'qlcolorcode'
+cask 'qlstephen'
 cask 'qlmarkdown'
 cask 'quicklook-json'
+cask 'qlprettypatch'
 cask 'quicklook-csv'
-cask 'qlstephen'
+cask 'betterzipql'
+cask 'qlimagesize'
+cask 'webpquicklook'
+# this failed:
+# cask 'suspicious-package'
+cask 'quicklookase'
+cask 'qlvideo'
 
-# Fonts
-cask 'font-sauce-code-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-
-# Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
+# Install Mac App Store apps -- might as well do this manually
+# mas '1Password', id: 443987910
+# mas 'DaisyDisk', id: 411643860
+# mas 'Keynote', id: 409183694
+# mas 'hazeover-distraction-dimmer', id: 430798174

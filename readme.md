@@ -1,7 +1,8 @@
 #### CR's dotfiles
 ---
 # Reinstalling OSX from scratch
-In my opinion, dotfiles have the greatest value when paired with a fresh OS install – at least personally, since these settings aren't about provisioning vanilla installs for others.
+A dotfile setup with some procedure notes for a fresh install.
+There's probably a way to automate everything... but between adding licenses, hand-transposing keyboard shortcuts and all the other little things, following this task list is probably just as good.
 ---
 #### Steps, roughly
 1. Back up old system using carbon copy cloner
@@ -20,10 +21,9 @@ In my opinion, dotfiles have the greatest value when paired with a fresh OS inst
     - deactivate all fonts
     - activate as needed
     + figure out a better way to do this
-10. manually update settings and prefs as needed
+10. manually update settings and prefs as needed (Most of this via Mackup)
 
 #### Initialize and sync stuff
-
 + Install app store apps
 + Sync Sublime
 + Sync 1p
@@ -85,4 +85,4 @@ mackup backup
 
 You can tweak the shell theme, the Oh My Zsh settings and much more. Go through the files in this repo and tweak everything to your liking.
 
-Enjoy your own Dotfiles!
+

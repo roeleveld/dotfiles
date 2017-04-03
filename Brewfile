@@ -68,6 +68,7 @@ cask 'xee'
 cask 'transmission'
 cask 'cloak'
 cask 'little-snitch'
+cask 'drop-to-gif'
 
 # Utils
 #cask --appdir="~/Applications/Utilities" 'carbon-copy-cloner'
@@ -79,7 +80,7 @@ cask 'itsycal', args: { appdir: '~/Applications/Utilities' }
 cask 'the-unarchiver', args: { appdir: '~/Applications/Utilities' }
 cask 'bartender', args: { appdir: '~/Applications/Utilities' }
 cask 'logitech-unifying', args: { appdir: '~/Applications/Utilities' }
-# this failed: 
+# this failed:
 # cask 'karabiner', args: { appdir: '~/Applications/Utilities' }
 cask 'itunes-volume-control', args: { appdir: '~/Applications/Utilities' }
 cask 'xquartz', args: { appdir: '~/Applications/Utilities' }

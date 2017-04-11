@@ -69,6 +69,7 @@ cask 'transmission'
 cask 'cloak'
 cask 'little-snitch'
 cask 'drop-to-gif'
+cask 'kap'
 
 # Utils
 #cask --appdir="~/Applications/Utilities" 'carbon-copy-cloner'

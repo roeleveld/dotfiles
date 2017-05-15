@@ -260,6 +260,9 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Auto hide menu bar
 # defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
+# enable text selection in quicklook
+defaults write com.apple.finder QLEnableTextSelection -bool TRUE;
+
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
